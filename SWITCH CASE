@@ -1,5 +1,4 @@
-//SWITCH CASE 
-
+// Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
 
@@ -19,28 +18,39 @@ int main()
     switch (eyecolor)
     {
     case black:
-        cout << "80% people have black eyes";
+        cout << "80% people have black eyes \n";
         break;
     case blue:
-        cout << "10% people have blue eyes";
+        cout << "10% people have blue eyes \n";
         break;
     case green:
-        cout << "4% people have green eyes";
+        cout << "4% people have green eyes \n";
         break;
     case brown:
-        cout << "2% people have brown eyes";
+        cout << "2% people have brown eyes \n";
         break;
     case grey:
-        cout << "1% people have grey eyes";
+        cout << "1% people have grey eyes \n";
         break;
     case other:
-        cout << "3% people have other eyes";
+        cout << "3% people have other eyes \n";
         break;
     default:
-        cout << "not valid eye color"; break;
+        cout << "not valid eye color \n"; break;
     }
 
+int x=1;
 
+switch(x){
+    case 1: cout<< "Sunday"; break;
+    case 2: cout<< "Monday"; break;
+    case 3: cout<< "Tues"; break;
+    case 4: cout<< "Wednesday"; break;
+    case 5: cout<< "Thurs"; break;
+    case 6: cout<< "Fri"; break;
+    case 7: cout<< "Sat"; break;
+    default: cout<< "invalid"; break;
+}
 }
 //it doesnt matter what sequence is in the enum
 //if you put an int value inside switch(), the default case will provoke
