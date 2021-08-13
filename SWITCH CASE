@@ -54,3 +54,8 @@ switch(x){
 }
 //it doesnt matter what sequence is in the enum
 //if you put an int value inside switch(), the default case will provoke
+
+
+/*OUTPUT
+3% people have other eyes
+Sunday*/
