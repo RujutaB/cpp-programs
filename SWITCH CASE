@@ -1,0 +1,46 @@
+//SWITCH CASE 
+
+#include <iostream>
+using namespace std;
+
+enum Eyecolor
+{
+    green,
+    brown,
+    black,
+    blue,
+    grey,
+    other
+};
+
+int main()
+{
+    Eyecolor eyecolor = other;
+    switch (eyecolor)
+    {
+    case black:
+        cout << "80% people have black eyes";
+        break;
+    case blue:
+        cout << "10% people have blue eyes";
+        break;
+    case green:
+        cout << "4% people have green eyes";
+        break;
+    case brown:
+        cout << "2% people have brown eyes";
+        break;
+    case grey:
+        cout << "1% people have grey eyes";
+        break;
+    case other:
+        cout << "3% people have other eyes";
+        break;
+    default:
+        cout << "not valid eye color"; break;
+    }
+
+
+}
+//it doesnt matter what sequence is in the enum
+//if you put an int value inside switch(), the default case will provoke
