@@ -1,0 +1,21 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+//WHILE
+cout<<"WHILE LOOP\n";
+int rujuta = 1;
+while(rujuta<=10){
+    cout<<rujuta<<endl ;
+    rujuta++;
+}
+//same variable rujuta cannot be used again for another loop because it will now take the last value i.e. 10
+//DO-WHILE
+cout<<"DO-WHILE LOOP\n";
+int ruj = 1;
+do{
+    cout<<ruj<<endl;
+    ruj++;
+}while(ruj<=10);
+}
